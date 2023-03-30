@@ -1,0 +1,25 @@
+{
+  "name": "rain_qa_challenge",
+  "version": "1.0.0",
+  "description": "rain_qa_challenge",
+  "main": "index.js",
+  "scripts": {
+    "cy_open": "cypress open",
+    "cy_test": "cypress run --spec 'cypress/integration/*'"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "Esteban Espinoza",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions": true
+    
+  }
+}
